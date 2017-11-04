@@ -2,7 +2,9 @@
 A tutorial assignment for the use of OpenCV as taught by Osama, Rashab, and Jinyuan
 
 ## Exercise 1:
-*"How does a program read the cvMat object, in particula, what is the order of the pixel structure?"*- There are three main ways to access the data in the Mat object:
+*"How does a program read the cvMat object, in particula, what is the order of the pixel structure?"*
+
+- There are three main ways to access the data in the Mat object:
      1. Can use pointers and the [] indexing operator
      2. Can use a MatIterator object that can be incremented from beginning to end
      3. Can use the .at method which will directly access a particular row and column of the matrix.
