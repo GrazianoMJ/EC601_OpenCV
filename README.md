@@ -22,3 +22,11 @@ A tutorial assignment for the use of OpenCV as taught by Osama, Rashab, and Jiny
      - The RGB pictures show a great amount of detail due to the fact that each pixel is an additive component of Red, Green or Blue.
      - The YCbCr show us how the various segments of the picture contain more red or blue tones. For example, the feathers of the woman's hat in the Lenna.png file have a heavy amount of blue, hence why in the Cb picture, we see darker shading in that area versus the Cr picture where it is rather light.
      - The HSV file shows us how the Hue and Saturation pictures translate to the Value picture. We see that the Value picture is very light but when we look to the Hue and Saturation, we see the shadows and shading from the original picture follow the dark and light regions of the Hue and Saturation picture. 
+
+2.*"Print out the values of the pixel at (20, 25) in the RGB, YCbCr, and HSV versions of the image. What are the ranges of the pixel values in each channel of each of the above mentioned colorspaces?"*
+- **RGB Colorspace**: Each channel can be represented by a value from 0 to 255.
+- **YCbCr Colorspace**: Depending on how the conversion of the color is done, each channel can range from 0-255 or 16-235.
+- **HSV Colorspace**: Hue can represent a value between 0-360 (the angle of the hue), and Saturation/Value are represented by a percentage value between 0-100.
+
+## Exercise 3:
+
