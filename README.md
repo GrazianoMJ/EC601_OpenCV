@@ -30,6 +30,7 @@ A tutorial assignment for the use of OpenCV as taught by Osama, Rashab, and Jiny
 
 ## Exercise 3:
 1.*"Look at the code in Noise.cpp and implement the code in Python. Also, print the results for different noise values in the Gaussian case, mean = 0, 5, 10, 20 and sigma = 0, 20, 50, 100 and for the salt-and-pepper case, pa = 0.01, 0.03, 0.05, 0.4 and pb = 0.01, 0.03, 0.05, 0.4."*
+
 2.*"Change the kernel sizes for all the filters with all different values for noises and print the results for 3x3, 5x5 and 7x7 kernels. Comment on the results. Which filter seems to work "better" for images with salt-and-pepper noise and gaussian noise?"*
 
 - Using the Lenna.png sample image, I created a set of images using the combination of kernels and noise variables. These images are save in Exercise3_Output.
