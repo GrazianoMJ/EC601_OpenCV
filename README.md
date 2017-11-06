@@ -37,3 +37,8 @@ A tutorial assignment for the use of OpenCV as taught by Osama, Rashab, and Jiny
 - Changing the Kernel size seems to blurring issues with the Gaussian Noise pictures (the larger the Kernel, the less clear the resulting image is).
 - Changing the Kernel size does not seem to have a major affect on the image clarity for Salt & Pepper noise.
 - The best filter for both Guassian & Salt-and-Pepper noise is the Median Filter (although it should be noted that eventually the noise can become so severe that the Median Filter is ineffective).
+
+## Class Exercise:
+- Thoughts:
+     - Using templates that are close in color to the background seems to cause issues with the NCC calculation. For example, I tried finding a single key, the Intel Corei7 sticker, and part of a pen and each time the came back with an incorrect location. Once I confirmed my algorithm worked with the example source and template, I used a sticky note with a smiley face and was successful in detection.
+     - Although the ndarray shape is expressed as [rows, columns, channels], when creating a shape, the format of the points is (x, y) so we must reverse the columns and rows indexes for max_corr location to get the correct rectangle drawn.
